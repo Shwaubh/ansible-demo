@@ -1,0 +1,5 @@
+---
+- name: run Python Script
+  hosts: localhost  
+  roles:
+    - ansible-demo

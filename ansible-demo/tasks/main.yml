@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-demo
+- name: run sample_ansible_1.py
+  ansible.builtin.script:
+    executable: python3
+    cmd: sample_ansible_1.py
